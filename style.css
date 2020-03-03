@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive; */
+}
+/*HEADER PRINCIPAL*/
+.header-principal {
+    border-bottom: solid 1px #DCDCDC;
+    height: 12rem;
+}
+
+.list-header-principal {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 60px;
+}
+
+li {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.header-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+/*HEADER PRINCIPAL*/
+
+/*HEADER MAIN*/
+.header-main {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.list-header-main {
+    display: flex;
+    list-style: none;
+}
+
+.arrow-down {
+    width: 14px;
+    margin-left: 10px;
+}
+
+.image-search {
+    margin-left: 15px;
+    width: 14px;
+}
+/*HEADER MAIN*/
+
+/*SECTION LETS SHOP*/
+.image-background-main {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.block-lets {
+    position: absolute;
+    z-index: 1;
+    top: 20rem;
+    left: 4rem;
+}
+
+.lets-title {
+    font-size: 45px;
+    margin: 30px 0 20px 108px;
+}
+
+hr {
+    width: 335px;
+    margin: 20px 0 20px 20px;
+}
+
+.lets-paragraph-one {
+    margin-left: 25px;
+    line-height: 2;
+}
+
+.lets-paragraph-two {
+    margin-left: 50px;
+}
+
+.lets-button {
+    margin: 10px 0 0 115px;
+    border: none;
+    background-color: #DDA0DD;
+    color: #fff;
+    width: 145px;
+    height: 40px;
+    text-transform: uppercase;
+}
+/*SECTION LETS SHOP*/
+
+/*SECTION FEATURED*/
+.block-featured {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-title {
+    text-align: center;
+    margin: 20px;
+    color: #c18f96;
+}
+
+.image-featured {
+    height: 155px;
+}
+
+.featured-paragraph {
+    font-size: 12px;
+}
+
+.block-featured-image-p {
+    margin: 10px;
+}
+
+.block-object {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.object-image {
+    height: 300px;
+}
+
+.block-object-text {
+    width: 450px;
+    height: 300px;
+    background-color: #c18f96;
+}
+
+.object-title {
+    color: #fff;
+    margin: 50px 0 18px 160px;
+    font-size: 40px;
+}
+
+.object-subtitle {
+    color: #fff;
+    margin-left: 70px;
+    font-size: 35px;
+}
+
+.object-paragraph {
+    color: #fff;
+    margin: 20px 0 10px 130px;
+}
+
+.object-button {
+    border: none;
+    background-color: #DDA0DD;
+    color: #fff;
+    width: 145px;
+    height: 40px;
+    text-transform: uppercase;
+    margin: 20px 0 0 142px;
+}
+/*SECTION FEATURED*/
