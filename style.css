@@ -164,4 +164,76 @@ hr {
     text-transform: uppercase;
     margin: 20px 0 0 142px;
 }
+
+.paragraph-instagram {
+    text-align: center;
+    font-size: 35px;
+    margin:  30px 0 30px 0;
+    color: #c18f96;
+}
+
+.image-instagram {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.block-image-instagram {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c18f96;
+    margin-top: 30px;
+    height: 7rem;
+}
+
+.footer-main-paragraph-one {
+    font-size: 27px;
+    margin-top: 40px;
+}
+
+.footer-main-paragraph-two {
+    font-size: 27px;
+}
+
+.footer-main-paragraph-image {
+    display: flex;
+    margin-top: 40px;
+}
+
+.social-media {
+    height: 25px;
+    margin-left: 15px;
+}
+
+.block-input {
+    margin-top: 40px;
+}
+
+.footer-main-input-text {
+    height: 30px;
+}
+
+.footer-main-input-button {
+    height: 30px;
+    border: none;
+    background-color: #DDA0DD;
+    color: #fff;
+    text-transform: uppercase;
+}
 /*SECTION FEATURED*/
+/*FOOTER*/
+.footer-paragraph {
+    width: 267px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    line-height: 2;
+}
+/*FOOTER*/
