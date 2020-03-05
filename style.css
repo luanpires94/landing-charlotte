@@ -124,6 +124,9 @@ li {
 hr {
     width: 25rem;
     margin: 20px 0 15px 0;
+    height: 1px;
+    background-color: #DDA0DD;
+    border: none;
 }
 @media (max-width: 768px) {
     hr {
