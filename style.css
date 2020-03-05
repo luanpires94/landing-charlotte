@@ -2,8 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Dancing Script', cursive; */
+    text-decoration: none;
 }
+
+img {
+    max-width:100%;
+  }
+
+a {
+    color: #000;
+}
+a:hover {
+    color: #DDA0DD;
+}
+
+::placeholder {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
 /*HEADER PRINCIPAL*/
 .header-principal {
     border-bottom: solid 1px #DCDCDC;
@@ -28,6 +45,16 @@ li {
     margin-top: 30px;
     font-size: 50px;
 }
+@media (max-width: 425px) {
+    .header-title {
+        font-size: 40px;
+    }
+}
+@media (max-width: 375px) {
+    .header-title {
+        font-size: 35px;
+    }
+}
 /*HEADER PRINCIPAL*/
 
 /*HEADER MAIN*/
@@ -51,6 +78,11 @@ li {
     margin-left: 15px;
     width: 14px;
 }
+@media (max-width: 375px) {
+    .image-search {
+        display: none;
+    }
+}
 /*HEADER MAIN*/
 
 /*SECTION LETS SHOP*/
@@ -67,24 +99,44 @@ li {
     top: 20rem;
     left: 4rem;
 }
+@media (max-width: 768px) {
+    .block-lets {
+        left: 12rem;
+    }
+}
+@media (max-width: 425px) {
+    .block-lets {
+        left: 1rem;
+    }
+}
 
 .lets-title {
     font-size: 45px;
     margin: 30px 0 20px 108px;
 }
+@media (max-width: 320px) {
+    .lets-title {
+        margin: 0;
+        text-align: center;
+    }
+}
 
 hr {
-    width: 335px;
-    margin: 20px 0 20px 20px;
+    width: 25rem;
+    margin: 20px 0 15px 0;
+}
+@media (max-width: 768px) {
+    hr {
+        display: none;
+    }
 }
 
-.lets-paragraph-one {
+.lets-paragraph {
     margin-left: 25px;
     line-height: 2;
-}
-
-.lets-paragraph-two {
-    margin-left: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .lets-button {
@@ -96,12 +148,27 @@ hr {
     height: 40px;
     text-transform: uppercase;
 }
+@media (max-width: 375px) {
+    .lets-button {
+        margin: 10px 0 0 100px;
+    }
+}
+@media (max-width: 320px) {
+    .lets-button {
+        margin: 10px 0 0 75px;
+    }
+}
 /*SECTION LETS SHOP*/
 
 /*SECTION FEATURED*/
 .block-featured {
     display: flex;
     justify-content: center;
+}
+@media (max-width: 425px) {
+    .block-featured {
+        flex-wrap: wrap;
+    }
 }
 
 .featured-title {
@@ -111,7 +178,7 @@ hr {
 }
 
 .image-featured {
-    height: 155px;
+    width: 218px;
 }
 
 .featured-paragraph {
@@ -131,6 +198,11 @@ hr {
 .object-image {
     height: 300px;
 }
+@media (max-width: 425px) {
+    .object-image {
+        display: none;
+    }
+}
 
 .block-object-text {
     width: 450px;
@@ -140,19 +212,25 @@ hr {
 
 .object-title {
     color: #fff;
-    margin: 50px 0 18px 160px;
-    font-size: 40px;
+    font-size: 33px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
 }
 
 .object-subtitle {
     color: #fff;
-    margin-left: 70px;
     font-size: 35px;
+    text-align: center;
+    line-height: 1.5;
 }
 
 .object-paragraph {
     color: #fff;
-    margin: 20px 0 10px 130px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
 }
 
 .object-button {
@@ -164,6 +242,11 @@ hr {
     text-transform: uppercase;
     margin: 20px 0 0 142px;
 }
+@media (max-width: 375px) {
+    .object-button {
+        margin: 20px 0 0 115px;
+    }
+}
 
 .paragraph-instagram {
     text-align: center;
@@ -173,13 +256,22 @@ hr {
 }
 
 .image-instagram {
-    width: 200px;
-    margin-left: 20px;
+    width: 235px;
+}
+@media (max-width: 768px) {
+    .image-instagram {
+        width: 180px;
+    }
 }
 
 .block-image-instagram {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+@media (max-width: 425px) {
+    .block-image-instagram {
+        flex-wrap: wrap;
+    }
 }
 
 .footer-main {
@@ -194,9 +286,19 @@ hr {
     font-size: 27px;
     margin-top: 40px;
 }
+@media (max-width: 425px) {
+    .footer-main-paragraph-one {
+        display: none;
+    }
+}
 
 .footer-main-paragraph-two {
     font-size: 27px;
+}
+@media (max-width: 425px) {
+    .footer-main-paragraph-two {
+        display: none;
+    }
 }
 
 .footer-main-paragraph-image {
@@ -207,6 +309,11 @@ hr {
 .social-media {
     height: 25px;
     margin-left: 15px;
+}
+@media (max-width: 425px) {
+    .social-media {
+        display: none;
+    }
 }
 
 .block-input {
@@ -229,11 +336,32 @@ hr {
 .footer-paragraph {
     width: 267px;
 }
+@media (max-width: 425px) {
+    .footer-paragraph {
+        display: none;
+    }
+}
 
 .footer {
     display: flex;
     margin-top: 40px;
     justify-content: space-evenly;
     line-height: 2;
+}
+@media (max-width: 425px) {
+    .footer {
+        flex-wrap: wrap;
+    }
+}
+
+.footer-title {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media (max-width: 768px) {
+    .logo-footer {
+        display: none;
+    }
 }
 /*FOOTER*/
