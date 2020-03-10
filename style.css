@@ -264,6 +264,7 @@ hr {
 @media (max-width: 768px) {
     .image-instagram {
         width: 180px;
+        margin: 5px;
     }
 }
 
